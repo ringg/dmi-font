@@ -5,10 +5,16 @@
    www.webtypography.net */
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: FF DIN OT, Arial, sans-serif;
+	color:#4d4d4d;
 
 	/* Enable kerning in FF and WebKit. */
 	text-rendering: optimizeLegibility;
+	/*DIN: font-family: 'FF DIN Pro Medium'
+    font-family: 'FF DIN Pro Light'
+    font-family: 'FF DIN Pro Bold'
+    font-family: 'FF DIN OT'
+    16px = 1rem*/
 }
 
 pre,

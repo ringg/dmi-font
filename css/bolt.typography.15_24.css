@@ -10,6 +10,7 @@
 body{
 	/* 15px */
 	font-size: 93.75%;
+	margin: 30px 20px;
 }
 
 body,
@@ -20,10 +21,13 @@ body,
 
 /* Block elements */
 
-h1                { word-spacing: -0.0833em; font-size: 1.6em;    line-height: 1em;      margin-bottom: 1em; }
-h2                { word-spacing: -0.0833em; font-size: 1.3333em; line-height: 1.2em;    margin-bottom: 0.6em; }
-h3                { word-spacing: -0.0833em; font-size: 1.2em;    line-height: 1.3333em; margin-bottom: 0.6667em; }
+h1                { word-spacing: -0.0833em; font-family: FF DIN Pro Light, Arial, sans-serif; font-size: 2.75em;    line-height: 1.2em;      margin-bottom: 3em; }
+h2                { word-spacing: -0.0833em; color: #999; text-transform: uppercase; font-size: 1.25em; line-height: 1.2em;    margin-bottom: 0.6em; }
+h3                { word-spacing: -0.0833em; font-size: 2.125em;    line-height: 1.3333em; margin-bottom: 0.6667em; }
+h3 span             {font-family: FF DIN Pro Medium, Arial, sans-serif;}
 h4                { word-spacing: -0.0833em; font-size: 1.0667em; line-height: 1.5em; }
+.blue               {}
+.orange             {}
 h5                { word-spacing: -0.0833em; font-size: 1em; }
 h6                { word-spacing: -0.0833em; font-size: 1em; }
 
